@@ -74,7 +74,7 @@ displayResult();
 
 OUTPUT: 
 
-PS O:\github\AWT_FALL_26-27\mid\practice\promise> node promise.js
+PS O:\github\AWT_FALL_26-27\mid\Practice\Promise> node "1.)_promise.js"
 Getting student result...
 Student result received!
 ID:  101

@@ -228,23 +228,22 @@ npm run migration:run
 
 1. Screenshot 1 (Migration Execution Output):
 
-![Migration Execution Output](<img/1.0)_Screenshot_1_(Migration_Execution_Output).png>)
+![Migration Execution Output](<screenshots/1.0)_Screenshot_1_(Migration_Execution_Output).png>)
 
 2. Screenshot 2 (Migration Code):
 
-![students](<img/2.1)_Screenshot_2_(Migration_Code)-students.png>)
+![students](<screenshots/2.1)_Screenshot_2_(Migration_Code)-students.png>)
 
-![teachers](<img/2.2)_Screenshot_2_(Migration_Code)-teachers.png>)
+![teachers](<screenshots/2.2)_Screenshot_2_(Migration_Code)-teachers.png>)
 
-![admins](<img/2.3)_Screenshot_2_(Migration_Code)-admins.png>)
+![admins](<screenshots/2.3)_Screenshot_2_(Migration_Code)-admins.png>)
 
 3. Screenshot 3 (Database Tables in pgAdmin)
 
-![Database Tables in pgAdmin](<img/3.0)_Screenshot_3_(Database_Tables_in_pgAdmin).png>)
+![Database Tables in pgAdmin](<screenshots/3.0)_Screenshot_3_(Database_Tables_in_pgAdmin).png>)
 
 4. Screenshot 4 (Columns view or Query)
 
-![Columns view or Query](<img/4.0)_Screenshot_4_(Columns_view_or_Query).png>)
+![Columns view or Query](<screenshots/4.0)_Screenshot_4_(Columns_view_or_Query).png>)
 
 ---
-

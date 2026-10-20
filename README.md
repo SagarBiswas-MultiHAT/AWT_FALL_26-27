@@ -1,33 +1,57 @@
 # AWT_FALL_26-27
 
-## Run: 
+## Repository Overview
 
-### Using the Terminal with Node.js
+This repository contains coursework, practice exercises, and NestJS projects for the Advanced Web Technologies(AWT) Fall 2026-27 course.
 
-**Option 1:** Using the Terminal with Node.js
-Node.js is already installed on system. Open terminal in VS Code (press Ctrl + `) and run:
-
-```terminal 
-cd mid/practice/promise
-node promise.js
+```text
+AWT_FALL_26-27/
+|-- README.md
+`-- mid/
+    |-- Lab_Task_0/
+    |   `-- user-management/
+    |       |-- src/
+    |       |   |-- common/       Shared decorators, guards, helpers, pipes, schemas, and utilities
+    |       |   |-- config/       Application and database configuration
+    |       |   |-- database/     Database documentation and migrations
+    |       |   |-- modules/      Feature modules, including the user module
+    |       |   |-- providers/    Cache, database, and queue providers
+    |       |   |-- script/       TypeORM migration and table-management scripts
+    |       |   |-- app.module.ts NestJS root module
+    |       |   |-- main.ts       Application bootstrap
+    |       |   `-- seeder.ts     Database seeding entry point
+    |       |-- screenshots/      Database and migration evidence screenshots
+    |       |-- Dockerfile        Container image definition
+    |       |-- docker-compose.yml Local service configuration
+    |       |-- package.json      Project scripts and dependencies
+    |       |-- pnpm-lock.yaml    Locked pnpm dependency versions
+    |       `-- README.md         Lab Task 0 setup and migration instructions
+    |
+    |-- Lab_Task_1/
+    |   |-- NestJS_Lab_Task_1.pdf Assignment requirements
+    |   `-- product-management-api/
+    |       |-- src/
+    |       |   |-- products/     Product entity, DTOs, controller, service, and module
+    |       |   |-- employees/    Employee entity, DTOs, controller, service, and module
+    |       |   |-- app.module.ts Database and feature-module configuration
+    |       |   `-- main.ts       NestJS application bootstrap and validation
+    |       |-- screenshots/      Postman evidence for the required CRUD operations
+    |       |-- .env.example      Sample local database configuration
+    |       |-- package.json      Project scripts and dependencies
+    |       |-- package-lock.json Locked npm dependency versions
+    |       |-- README.md         Setup, endpoint, and submission instructions
+    |       `-- tsconfig*.json    TypeScript and NestJS build configuration
+    |
+    `-- Practice/
+        `-- Promise/
+            |-- 1.)_promise.js   JavaScript Promise and async/await practice
+            `-- README.md         Promise example execution instructions
 ```
 
-**Option 2:** In a Web Browser
+## Main Projects
 
-If prefer testing it in the browser console:
+- **Lab Task 0:** A Docker-ready NestJS user-management project with PostgreSQL migrations and supporting providers.
+- **Lab Task 1:** A PostgreSQL-backed NestJS REST API for product and employee CRUD operations.
+- **Practice:** Small JavaScript and TypeScript learning exercises, including Promise and async/await examples.
 
-1. Create a minimal HTML file in the same folder
-
-```html
-<!DOCTYPE html>
-<html>
-<head><title>Promise Test</title></head>
-<body>
-    <script src="promise.js"></script>
-</body>
-</html>
-```
-
-2. Open the HTML file in browser and press F12 to view the output in the Console tab.
-
----
+Local-only files such as `.env`, `node_modules`, and `dist` are excluded from the repository and should not be committed.
